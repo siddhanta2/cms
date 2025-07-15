@@ -1,0 +1,48 @@
+.hod-card{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #001A6E;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.hod-card a{
+    text-decoration: none;
+    padding: 7px 25px;
+    color: #313131;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.hod-card-form, .hod-card-form1{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 7px;
+    border-top: 2px solid #001A6E;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#btn{
+    text-decoration: none;
+    padding: 7px 25px;
+    color: #313131;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.hod-card-form1 label{
+    font-size: 14.5px;
+}
+.hod-card-form1 input[type="text"], input[type="email"], input[type="date"], input[type="file"]{
+    height: 47px;
+}
+.hod-card-form1 input[type="text"], input[type="email"]::placeholder{
+    font-size: 14.5px;
+}
+.hod-card-form1 select{
+    height: 47px;
+}
+.hod-card-form1 select option{
+    font-size: 14.5px;
+}

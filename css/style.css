@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE;
+    font-family: "Poppins", serif;
+}
+.admin{
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.admin a{
+    background-color: #F72C5B;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 30px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+.login-form{
+    height: auto;
+    padding-bottom: 15px;
+    background-color: #fff;
+    margin-top: 30%;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.login-form input[type="email"], input[type="password"]{
+    border-radius: 30px;
+    padding: 6px 10px;
+    height: 45px;
+}
+.login-form input[type="email"]::placeholder{
+    font-size: 14px;
+}
+
+.login-form input[type="password"]::placeholder{
+    font-size: 14px;
+}
+.login-form button{
+    border: none;
+    padding: 8px 45px;
+    background-color: #FF748B;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.sidebar{
+    height: 1500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.sidebar .sidebar-top{
+    height: 60px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.active{
+    margin-top: 10px;
+    background-color: #313131;
+    color: #fff!important;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+#sidebar-bottom nav a{
+    display: block;
+    color: #313131;
+    text-decoration: none;
+    padding: 8px 10px 8px 15px;
+    opacity: 0.7;
+    font-size: 14.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+#sidebar-bottom nav a i{
+    padding-right: 10px;
+}
+#sidebar-bottom nav a:hover{
+    background-color: #313131;
+    color: #fff;
+}
+.top-header{
+    height: 60px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding-top: 10px;
+}
+.top-header input[type="search"]{
+    border-radius: 20px;
+}
+.top-header .icons{
+    padding-right: 10px;
+}
+.top-header .icons img{
+    border-radius: 50%;
+}
+.top-header .icons i{
+    margin-right: 10px;
+}
